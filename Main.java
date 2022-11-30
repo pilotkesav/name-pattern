@@ -4,7 +4,7 @@ public class Main{
         Scanner sc=new Scanner(System.in);
         Pat p=new Pat();
         int n=5;
-        String s=sc.nextLine();
+        String s=sc.nextLine().toLowerCase();
         for(int i=0;i<n;i++){
             for(int k=0;k<s.length();k++){
                 if(s.charAt(k)=='a'){
@@ -120,9 +120,3 @@ public class Main{
         sc.close();
     }
 }
-/*p.k(i,n);
-            p.e(i,n);
-            p.s(i,n);
-            p.a(i,n);
-            System.out.println();
- */
